@@ -1,0 +1,55 @@
+﻿body {
+    font-family: Arial, Calibri, 黑体;
+}
+#top {
+    width: 600px;
+    margin: auto;
+}
+#roomname {
+    font-size: 16px;
+    font-weight: bold;
+    /* float: left; */
+    display: inline;
+}
+#roominfo button {
+    float: right;
+}
+#message_box {
+    margin-top: 16px;
+    width: 600px;
+}
+#userprof {
+    height: 100px;
+    float: left;
+    display: inline;
+}
+#usericon {
+    margin-top: 2px;
+    display: block;
+}
+#username {
+    margin-top: 10px;
+    text-align: center;
+}
+#message {
+    height: 60px;
+    width: 500px;
+    margin: 4px 0px 4px -6px;
+    overflow: hidden;
+    float: right;
+}
+#submit {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+#content {
+    min-height: 800px;
+    width: 100%;
+    background-color: black;
+}
+#talk_box {
+    width: 600px;
+    margin: auto;
+    color: white;
+}

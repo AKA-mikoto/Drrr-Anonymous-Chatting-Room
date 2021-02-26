@@ -1,0 +1,50 @@
+body {
+    background-color:black;
+    color: white;
+    font-family: Arial, Calibri, 黑体;
+}
+#logo {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    background-image: url("../resource/20191121210030.png");
+}
+#loginDiv {
+    width: 500px;
+    position: relative;
+    top: 160px;
+    left: 70px;
+    margin: auto;
+}
+#loginName {
+    width: 300px;
+    position: relative;
+    left: 50px;
+    margin: auto;
+}
+#loginName input {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#msg {
+    color: red;
+}
+#enterButton {
+    width: 200px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    display: block;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#onlineUser {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
