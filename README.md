@@ -3,7 +3,7 @@
 编写语言包括 HTML、CSS、JavaScript、PHP、SQL，测试环境为 WAMP，主要技术有 AJAX。
 
 
-项目文件说明：
+**项目文件说明：**
 ./css 文件夹：包含整个项目的 css 文件
 ./database_sql 文件夹：导入数据库需要用到的 sql 文件
 ./inc 文件夹：包含需要被其他脚本引用的连接数据库用的头文件
@@ -17,7 +17,7 @@ getMsg.php：ChattingRoom.php 每隔1秒触发该脚本，从数据库中获取�
 logout.php：用户退出聊天室时自动触发，删除数据库 user 表中关于该退出用户的信息
 
 
-说明：
+**说明：**
 1.首先在 MySQL 中创建一个名为“chattingroom”的数据库，然后导入 ./database_sql/chattingroom.sql 文件
 2.在 ./inc/ChattingRoomSQL.inc.php 脚本中修改你的数据库用户名和密码。
 3.挂载到 WAMP 环境下
@@ -27,14 +27,14 @@ logout.php：用户退出聊天室时自动触发，删除数据库 user 表中�
 鉴于本人水平有限，有些已知 bug 没有解决（比如输入的聊天信息过长也只会显示一行、数据库中提示信息删不掉等），大佬们有兴趣可以自己改改
 
 
-联系邮箱：yuki_judai@126.com
+**联系邮箱：**yuki_judai@126.com
 
 
 
 This a anonymous chatting room project coded mainly by PHP as my final course design，the inspiration comes from Japanese animation "デュラララ!!".
 The programming languages including HTML, CSS, JavaScript, PHP, SQL, testing environment is WAMP, AJAX is the main technique that I wanted to learn.
 
-Project file illustrate:
+**Project file illustrate:**
 ./css folder: Including all the CSS file that the project needed
 ./database_sql folder: A sql file which was necessary when importing database
 ./inc folder: A headfile which is needed to be included by other scripts
@@ -48,7 +48,7 @@ getMsg.php: This script would be trigger 1 time per second by ChattingRoom.php, 
 logout.php: Automatically trigger when a user logout from chatting room, deletes the information of this user in the user table in database.
 
 
-Usage:
+**Usage:**
 1.firstly, creating a database named "chattingroom", then import the file "./database_sql/chattingroom.sql"
 2.alter the username and password to yours database in "./inc/ChattingRoomSQL.inc.php"
 3.mount in WAMP environment
@@ -58,4 +58,4 @@ Usage:
 Since my poor programming skill, some bugs were not solved(like: the message would only displayed in one line even if you input long text, the prompt message can't be deleted automatically), you can fix these bugs if you have time and interest.
 
 
-my email: yuki_judai@126.com
+**My email:** yuki_judai@126.com
