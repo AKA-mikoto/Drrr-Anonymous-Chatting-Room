@@ -2,9 +2,10 @@
 这是一个主要由 PHP 开发的网页匿名聊天室，是我大学期末课程设计的作品，主要灵感来源于日本动画《无头骑士异闻录》。
 
 编写语言包括 HTML、CSS、JavaScript、PHP、SQL，测试环境为 WAMP，主要技术有 AJAX。
-
+<br /><br />
 
 **项目文件说明：**
+
 ./css 文件夹：包含整个项目的 css 文件
 
 ./database_sql 文件夹：导入数据库需要用到的 sql 文件
@@ -26,12 +27,11 @@ subMsg.php：用户发送聊天信息时触发，把聊天信息存入数据库�
 getMsg.php：ChattingRoom.php 每隔1秒触发该脚本，从数据库中获取最近的聊天记录
 
 logout.php：用户退出聊天室时自动触发，删除数据库 user 表中关于该退出用户的信息
-
+<br /><br />
 
 **说明：**
 
 1.首先在 MySQL 中创建一个名为“chattingroom”的数据库，然后导入 ./database_sql/chattingroom.sql 文件
-
 
 2.在 ./inc/ChattingRoomSQL.inc.php 脚本中修改你的数据库用户名和密码。
 
@@ -41,15 +41,18 @@ logout.php：用户退出聊天室时自动触发，删除数据库 user 表中�
 
 
 鉴于本人水平有限，有些已知 bug 没有解决（比如输入的聊天信息过长也只会显示一行、数据库中提示信息删不掉等），大佬们有兴趣可以自己改改
+<br /><br />
 
 
 **联系邮箱：**yuki_judai@126.com
+<br /><br /><br /><br />
 
 
 
 This a anonymous chatting room project coded mainly by PHP as my final course design，the inspiration comes from Japanese animation "デュラララ!!".
 
 The programming languages including HTML, CSS, JavaScript, PHP, SQL, testing environment is WAMP, AJAX is the main technique that I wanted to learn.
+<br /><br />
 
 **Project file illustrate:**
 
@@ -74,7 +77,7 @@ subMsg.php: When anyone send a message, this script would store the message into
 getMsg.php: This script would be trigger 1 time per second by ChattingRoom.php, used to acquire the latest message from database
 
 logout.php: Automatically trigger when a user logout from chatting room, deletes the information of this user in the user table in database.
-
+<br /><br />
 
 **Usage:**
 
@@ -88,6 +91,6 @@ logout.php: Automatically trigger when a user logout from chatting room, deletes
 
 
 Since my poor programming skill, some bugs were not solved(like: the message would only displayed in one line even if you input long text, the prompt message can't be deleted automatically), you can fix these bugs if you have time and interest.
-
+<br /><br />
 
 **My email:** yuki_judai@126.com
